@@ -4,7 +4,8 @@ import cors from "cors";
 import passport from "passport";
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
-
+import dotenv from 'dotenv';
+dotenv.config();
 import { FRONT_END, PORT, SESSION_SECRET } from "./src/config/config";
 
 import mongoDB from "./src/db/mongodb";

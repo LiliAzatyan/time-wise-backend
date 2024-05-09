@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon --require dotenv/config --watch *.ts --exec ts-node index.ts",
     "lint": "npx eslint. --config .eslintrc",
-    "build": "tsc"
+    "build": "tsc",
+    "serve": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
