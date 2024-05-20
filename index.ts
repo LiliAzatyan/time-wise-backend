@@ -22,8 +22,8 @@ const startServer = async () => {
     await mongoDB();
 
     app.use(cors({
-        origin: FRONT_END,
-        credentials: true
+        // origin: FRONT_END,
+        // credentials: true
     }));
     app.use(express.urlencoded({ extended: true }));
     app.use(express.json());
